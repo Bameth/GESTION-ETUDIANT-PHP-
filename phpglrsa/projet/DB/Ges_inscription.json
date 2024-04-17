@@ -1,0 +1,270 @@
+{
+    "demandes": [
+        {
+            "id": 1,
+            "date": "10\/04\/2023",
+            "etat": "En cours",
+            "type": "Suspension",
+            "motif": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum possimus cumque itaque vitae distinctio suscipit incidunt placeat eius quod nemo obcaecati vero consectetur ipsam. Maxime natus voluptas minus porro dolor.4",
+            "etudiant_id": 1,
+            "annee_id": 1
+        },
+        {
+            "id": 2,
+            "date": "01\/03\/2023",
+            "etat": "Accept\u00e9",
+            "type": "Annulation",
+            "motif": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum possimus cumque itaque vitae distinctio suscipit incidunt placeat eius quod nemo obcaecati vero consectetur ipsam. Maxime natus voluptas minus porro dolor.4",
+            "etudiant_id": 3,
+            "annee_id": 1
+        },
+        {
+            "id": 3,
+            "date": "09\/09\/2023",
+            "etat": "Refus\u00e9",
+            "type": "Suspension",
+            "motif": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum possimus cumque itaque vitae distinctio suscipit incidunt placeat eius quod nemo obcaecati vero consectetur ipsam. Maxime natus voluptas minus porro dolor.4",
+            "etudiant_id": 1,
+            "annee_id": 1
+        },
+        {
+            "id": 4,
+            "date": "24\/11\/2023",
+            "etat": "En cours",
+            "type": "Annulation",
+            "motif": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum possimus cumque itaque vitae distinctio suscipit incidunt placeat eius quod nemo obcaecati vero consectetur ipsam. Maxime natus voluptas minus porro dolor.4",
+            "etudiant_id": 3,
+            "annee_id": 1
+        },
+        {
+            "id": 5,
+            "date": "21\/10\/2023",
+            "etat": "Accept\u00e9",
+            "type": "Suspension",
+            "motif": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum possimus cumque itaque vitae distinctio suscipit incidunt placeat eius quod nemo obcaecati vero consectetur ipsam. Maxime natus voluptas minus porro dolor.4",
+            "etudiant_id": 1,
+            "annee_id": 1
+        },
+        {
+            "id": 6,
+            "date": "14\/12\/2023",
+            "etat": "En cours",
+            "type": "annulation",
+            "motif": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum possimus cumque itaque vitae distinctio suscipit incidunt placeat eius quod nemo obcaecati vero consectetur ipsam. Maxime natus voluptas minus porro dolor.4",
+            "etudiant_id": 3,
+            "annee_id": 1
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "matricule": "MATT0123",
+            "nom": "Fall",
+            "prenom": "Moussa",
+            "dateNaiss": "2004-01-01",
+            "login": "etudiant@gmail.com",
+            "password": "p",
+            "adresse": [
+                "Medina",
+                "point-E",
+                "Nord-Foire"
+            ],
+            "classe_id": 1,
+            "role": "ROLE_ETUDIANT"
+        },
+        {
+            "id": 2,
+            "matricule": "",
+            "nom": "DIOP",
+            "prenom": "Babacar",
+            "dateNaiss": "2004-02-15",
+            "login": "ac@gmail.com",
+            "password": "p",
+            "adresse": [
+                "Medina",
+                "point-E",
+                "Nord-Foire"
+            ],
+            "classe_id": 0,
+            "role": "ROLE_AC"
+        },
+        {
+            "id": 3,
+            "matricule": "MATT0125",
+            "nom": "NDAO",
+            "prenom": "Ibou",
+            "dateNaiss": "2005-07-10",
+            "login": "ib@gmail.com",
+            "password": "p",
+            "adresse": [
+                "Medina",
+                "point-E",
+                "Nord-Foire"
+            ],
+            "classe_id": 2,
+            "role": "ROLE_ETUDIANT"
+        },
+        {
+            "id": 4,
+            "matricule": "",
+            "nom": "TINE",
+            "prenom": "Robert",
+            "dateNaiss": "2002-05-20",
+            "login": "rp@gmail.com",
+            "password": "rp",
+            "adresse": [
+                "Medina",
+                "point-E",
+                "Nord-Foire"
+            ],
+            "classe_id": "",
+            "role": "ROLE_RP"
+        },
+        {
+            "id": 5,
+            "matricule": "",
+            "nom": "TALL",
+            "prenom": "Abdoulaye",
+            "dateNaiss": "2004-12-28",
+            "login": "ac@gmail.com",
+            "password": "ac",
+            "adresse": [
+                "Medina",
+                "point-E",
+                "Nord-Foire"
+            ],
+            "classe_id": 0,
+            "role": "ROLE_AC"
+        }
+    ],
+    "Classes": [
+        {
+            "id": 1,
+            "niveau": "Licence2",
+            "filiere": "GLRS",
+            "libelle": "L2GLRSA"
+        },
+        {
+            "id": 2,
+            "niveau": "Licence1",
+            "filiere": "CPD",
+            "libelle": "L1CPD"
+        },
+        {
+            "id": 3,
+            "niveau": "Licence3",
+            "filiere": "MAIE",
+            "libelle": "L3MAIE"
+        },
+        {
+            "id": 4,
+            "niveau": "Licence2",
+            "filiere": "TTL",
+            "libelle": "L2TTLA"
+        },
+        {
+            "id": 5,
+            "niveau": "Licence3",
+            "filiere": "GLRS",
+            "libelle": "L3GLRS"
+        }
+    ],
+    "Annee": [
+        {
+            "id": 1,
+            "nom": "2023-2024",
+            "etat": 1
+        },
+        {
+            "id": 2,
+            "nom": "2022-2023",
+            "etat": 2
+        },
+        {
+            "id": 3,
+            "nom": "2023-2024",
+            "etat": 1
+        },
+        {
+            "id": 4,
+            "nom": "2022-2023",
+            "etat": 2
+        },
+        {
+            "id": 5,
+            "nom": "2023-2024",
+            "etat": 1
+        }
+    ],
+    "modules": [
+        {
+            "id": 1,
+            "libelle": "PHP"
+        },
+        {
+            "id": 2,
+            "libelle": "ALGO"
+        },
+        {
+            "id": 3,
+            "libelle": "UML"
+        },
+        {
+            "id": 4,
+            "libelle": "PYTHON"
+        },
+        {
+            "id": 5,
+            "libelle": "LANGAGE C"
+        },
+        {
+            "id": 6,
+            "libelle": "JAVASCRIPT"
+        }
+    ],
+    "profs": [
+        {
+            "id": 1,
+            "nom": "KANE",
+            "prenom": "HARRY",
+            "grade": "Ingenieur",
+            "modules": [
+                "PHP",
+                "ALGO"
+            ],
+            "classe_id": [
+                "L1ETSE",
+                "L3CPD"
+            ]
+        },
+        {
+            "id": 2,
+            "nom": "KYLIAN",
+            "prenom": "MBAPPE",
+            "grade": "Docteur",
+            "modules": [
+                "PYTHON",
+                "LANGAGE C",
+                "UML"
+            ],
+            "classe_id": [
+                "L3GLRS",
+                "L3MAIE"
+            ]
+        },
+        {
+            "id": 3,
+            "nom": "HENRY",
+            "prenom": "THIERRY",
+            "grade": "Professeur",
+            "modules": [
+                "PHP",
+                "JAVASCRIPT"
+            ],
+            "classe_id": [
+                "L1GLRS",
+                "L3TTL"
+            ]
+        }
+    ]
+}
