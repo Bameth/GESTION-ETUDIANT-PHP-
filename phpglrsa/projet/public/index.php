@@ -46,7 +46,7 @@ if (isset($_REQUEST["action"])) {
         require_once("../views/Liste.module.html.php");
     }elseif ($_REQUEST["action"] == "logout") {
         unset($_SESSION["userConnect"]);
-        unset($_SESSION["anneeEncours"]);   
+        unset($_SESSION["anneeEncours"]);
         unset($_SESSION["nom"]);
         session_destroy();
         header("Location: " . $WEBROOT);
@@ -111,7 +111,7 @@ if (isset($_REQUEST["action"])) {
         ];
         affecterNewData($profId,"classes[]",$checkedClasses);
         $profs=getAllProfs();
-        header("location:".$WEBROOT."?action=liste-profs-rp");        
+        header("location:".$WEBROOT."?action=liste-profs-rp");
     }elseif ($_REQUEST["action"] == "form-mo") {
         $moduleAffect=[
             "modules" => isset($_REQUEST['modules']) ? $_REQUEST['modules'] : [],
@@ -119,7 +119,7 @@ if (isset($_REQUEST["action"])) {
         $idprof=$_GET['prof_id'];
         affecterNewData($idprof,"modules[]",$moduleAffect);
         $professeur=getAllProfs();
-        header("location:".$WEBROOT."?action=liste-profs-rp");        
+        header("location:".$WEBROOT."?action=liste-profs-rp");
     }elseif ($_REQUEST["action"] =="form-login") {
         $login=$_POST["email"];
         $password=$_POST["password"];
@@ -133,13 +133,13 @@ if (isset($_REQUEST["action"])) {
             if($etudiantConnect["role"]=="ROLE_ETUDIANT"){
                 header("location:".$WEBROOT."?action=liste");
             }elseif($etudiantConnect["role"]=="ROLE_AC"){
-                header("location:".$WEBROOT."?action=liste-ac");  
+                header("location:".$WEBROOT."?action=liste-ac");
             }elseif($etudiantConnect["role"]=="ROLE_RP"){
                 header("location:".$WEBROOT."?action=liste-classes-rp");
             }
         }
    }
-} 
+}
     else {
         require_once("../views/security/login.html.php");
     }

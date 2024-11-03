@@ -31,7 +31,7 @@ function getClasseById(int $id):array|null{
 function getEtudiantById(int $id):array|null{
     $etudiants=getAllEtudiants();
     return getDataById($etudiants,$id); 
-}                       
+}
 function getAllEtudiants():array{
     $etudiants=getAllUsersByRole("ROLE_ETUDIANT");
     $etudiantClasse=[];
@@ -53,7 +53,7 @@ function getAllDemandes(int|null $AnneeId=null):array{
         if ($etudiant !== null) {
             $demandeEtu[] = array_merge($etudiant, $demande);
         }
-    } 
+    }
     return $demandeEtu;
 }
 

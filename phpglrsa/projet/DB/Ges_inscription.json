@@ -53,6 +53,15 @@
             "motif": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum possimus cumque itaque vitae distinctio suscipit incidunt placeat eius quod nemo obcaecati vero consectetur ipsam. Maxime natus voluptas minus porro dolor.4",
             "etudiant_id": 3,
             "annee_id": 1
+        },
+        {
+            "id": 7,
+            "date": "03\/11\/2024",
+            "etat": "En cours",
+            "type": "annulation",
+            "motif": "",
+            "etudiant_id": 1,
+            "annee_id": 1
         }
     ],
     "users": [
