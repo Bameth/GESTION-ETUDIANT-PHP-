@@ -62,6 +62,15 @@
             "motif": "",
             "etudiant_id": 1,
             "annee_id": 1
+        },
+        {
+            "id": 8,
+            "date": "20\/11\/2024",
+            "etat": "En cours",
+            "type": "suspension",
+            "motif": "ghzad",
+            "etudiant_id": 3,
+            "annee_id": 1
         }
     ],
     "users": [
